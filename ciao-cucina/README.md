@@ -4,7 +4,7 @@ Site de um restaurante fictício de alta gastronomia italiana, criado como proje
 
 > **Aviso:** o restaurante, os nomes, o endereço, os preços e os depoimentos são fictícios.
 
-**Site publicado:** [adicione aqui o link]
+**Site publicado:** 
 **Autor:** Gabriel · [LinkedIn](#) · [GitHub](#)
 
 ## Prévia
@@ -13,7 +13,6 @@ Site de um restaurante fictício de alta gastronomia italiana, criado como proje
 
 ## O que o site tem
 
-- **Hero** com a foto de um prato dentro de anéis dourados, que se desenham ao abrir a página
 - **História** do restaurante, com os principais números da casa
 - **Cardápio em abas** (Antipasti, Primi, Secondi e Dolci), gerado a partir de dados em JavaScript
 - **Galeria com lightbox**, com navegação por botões, setas do teclado e Esc para fechar
