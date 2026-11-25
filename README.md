@@ -9,8 +9,9 @@ Site de um restaurante fictício de alta gastronomia italiana, criado como proje
  
 ## Prévia
  
-[adicione aqui os prints da pasta `docs/prints/`: página inicial, cardápio, galeria e versão mobile]
- 
+![Página inicial](ciao-cucina/assets/images/galeria/home.png)
+![Cardápio em abas](ciao-cucina/assets/images/galeria/cardapio.png)
+![Galeria de fotos](ciao-cucina/assets/images/galeria/fotos.png)
 ## O que o site tem
  
 - **Hero** com a foto de um prato dentro de anéis dourados, que se desenham ao abrir a página
