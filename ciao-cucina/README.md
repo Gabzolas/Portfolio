@@ -4,7 +4,7 @@ Site de um restaurante fictício de alta gastronomia italiana, criado como proje
 
 > **Aviso:** o restaurante, os nomes, o endereço, os preços e os depoimentos são fictícios.
 
-**Site publicado:** 
+**Site publicado:** [gabzolas.github.io/Portfolio/ciao-cucina/]
 **Autor:** Gabriel · [LinkedIn](#) · [GitHub](#)
 
 ## Prévia
