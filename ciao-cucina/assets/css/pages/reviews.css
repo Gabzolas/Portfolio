@@ -1,0 +1,25 @@
+/* AVALIAÇÕES: depoimentos em destaque e formulário de nova avaliação. */
+#avaliacoes{background:var(--panel)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.reviews{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;margin-top:40px;align-items:start}
+.reviews figure{margin:0}
+.stars{margin:0 0 12px;color:var(--star);letter-spacing:.15em;font-size:1.1rem}
+.featured blockquote{margin:0;font:italic 400 clamp(1.6rem,3.2vw,2.4rem)/1.25 var(--display)}
+.reviews figcaption{margin-top:16px;color:var(--muted);font-size:.98rem}
+.others{border-left:1px solid var(--line);padding-left:40px}
+.others figure{padding:0 0 28px}
+.others figure + figure{border-top:1px solid var(--line);padding:28px 0 0}
+.others blockquote{margin:0;font-size:1.05rem;max-width:52ch}
+@media (max-width:820px){.reviews{grid-template-columns:1fr;gap:36px}.others{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:28px}}
+.aval{margin-top:64px;padding-top:40px;border-top:1px solid var(--line);max-width:760px;gap:20px 32px}
+.aval h3{grid-column:1/-1;font-size:1.6rem}
+@media (max-width:820px){.aval{grid-template-columns:1fr}}
+textarea{font:300 1rem var(--body);color:var(--fg);background:transparent;border:0;border-bottom:1px solid var(--muted);padding:10px 2px;width:100%;min-height:96px;resize:vertical;border-radius:0}
+textarea:focus{outline:none;border-color:var(--brass);box-shadow:0 1px 0 var(--brass)}
+.rate{grid-column:1/-1;border:0;padding:0;margin:0}
+.rate legend{padding:0;margin-bottom:6px;font-weight:400}
+.rate .row{display:inline-flex;flex-direction:row-reverse;gap:4px}
+.rate input{position:absolute;opacity:0;width:1px;height:1px}
+.rate label{font-size:2rem;line-height:1;color:var(--muted);opacity:.45;cursor:pointer;padding:2px}
+.rate input:checked ~ label,.rate label:hover,.rate label:hover ~ label{color:var(--star);opacity:1}
+.rate input:focus-visible + label{outline:2px solid var(--brass);outline-offset:2px}

@@ -1,0 +1,12 @@
+/* VARIÁVEIS: cores, fontes e tema claro/escuro. Mude a paleta do site aqui. */
+:root{
+  --wine:#2B0E17; --wine-2:#3A1522; --brass:#C2A05A; --marble:#EEF0EE;
+  --bg:#EEF0EE; --fg:#24121A; --muted:#5E5359; --line:#cfd2cf; --panel:#E3E6E3; --on-accent:#2B0E17; --star:#8C5E26;
+  --display:"Bodoni Moda","Didot","Times New Roman",serif;
+  --body:"Jost","Futura","Helvetica Neue",Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#190A10;--fg:#EEE9E4;--muted:#B5A9AE;--line:#3d2a33;--panel:#231119;--star:var(--brass)}
+}
+:root[data-theme="dark"]{--bg:#190A10;--fg:#EEE9E4;--muted:#B5A9AE;--line:#3d2a33;--panel:#231119;--star:var(--brass)}

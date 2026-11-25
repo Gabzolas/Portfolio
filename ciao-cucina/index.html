@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ciao Cucina — Alta gastronomia italiana</title>
+<meta name="description" content="Ciao Cucina: cozinha italiana de alta gastronomia. Menu degustação, carta de vinhos e reservas online. Restaurante fictício para portfólio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/images/branding/monograma.png">
+<link rel="stylesheet" href="assets/css/variables.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/pages/home.css">
+<link rel="stylesheet" href="assets/css/pages/gallery.css">
+<link rel="stylesheet" href="assets/css/pages/reviews.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#topo" aria-label="Ciao Cucina, início"><img src="assets/images/branding/monograma.png" alt="" width="223" height="240"><span>Ciao Cucina</span></a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#chef">Chef</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#reservas">Reservar mesa</a>
+  </div>
+</header>
+
+<main id="conteudo">
+  <div class="hero" id="topo">
+    <div class="wrap">
+      <div>
+        <h1><span>Ciao</span><span class="l2">Cucina</span></h1>
+        <p>Cozinha italiana de mesa longa e prato pequeno. Doze lugares por noite, um menu que muda com a estação.</p>
+        <div class="actions">
+          <a class="btn" href="#reservas">Reservar mesa</a>
+          <a class="link" href="#cardapio">Ver o cardápio</a>
+        </div>
+      </div>
+      <div class="plate">
+        <svg viewBox="0 0 400 400" aria-hidden="true">
+          <circle class="r" cx="200" cy="200" r="192"/>
+          <circle class="r" cx="200" cy="200" r="168"/>
+          <circle class="r" cx="200" cy="200" r="148"/>
+        </svg>
+        <img src="assets/images/galeria/pappardelle-ragu.jpg" alt="Pappardelle ao ragù de carne em uma tigela escura, vista de cima" width="1000" height="1500">
+      </div>
+    </div>
+  </div>
+
+  <section id="historia">
+    <div class="wrap story">
+      <div>
+        <h2>Uma mesa de família, servida com rigor</h2>
+        <p class="lead">A Ciao Cucina nasceu da receita de ragù da nonna Concetta, em Milão, e chegou ao Brasil em 1987. Hoje, o chef Matteo Ferraro cozinha com massas feitas todas as manhãs, peixes do dia e azeites de pequenos produtores da Toscana e da Puglia.</p>
+        <p class="lead">Cada serviço tem apenas doze lugares, para que você seja atendido sem pressa.</p>
+      </div>
+      <div class="facts">
+        <div><strong>12 lugares</strong><span>Um único serviço por noite, das 19h30.</span></div>
+        <div><strong>Massas frescas</strong><span>Feitas à mão todos os dias, antes da abertura.</span></div>
+        <div><strong>180 rótulos</strong><span>Carta de vinhos italianos, com taça sob consulta.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cardapio">
+    <div class="wrap">
+      <h2>Cardápio da estação</h2>
+      <p class="lead">Escolha à la carte ou peça o menu degustação de sete tempos, com harmonização de vinhos.</p>
+      <div class="tabs" role="tablist" aria-label="Categorias do cardápio" id="tabs"></div>
+      <div id="panel" role="tabpanel" aria-live="polite"></div>
+      <p class="note">Avise a equipe sobre alergias ou restrições alimentares. Adaptamos os pratos sempre que possível.</p>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <div class="wrap">
+      <h2>Galeria</h2>
+      <p class="lead">Pratos da casa e o ambiente do salão. Toque numa foto para ampliar.</p>
+      <ul class="gallery">
+        <li class="tall"><button type="button" class="g-item" data-caption="Pappardelle ao ragù de carne" aria-label="Ampliar foto: Pappardelle ao ragù de carne"><img src="assets/images/galeria/pappardelle-ragu.jpg" alt="Tigela escura de pappardelle ao ragù de carne, com salsinha e raspas de limão, vista de cima sobre madeira escura" width="1000" height="1500" loading="lazy"></button></li>
+        <li class=""><button type="button" class="g-item" data-caption="Spaghetti com camarões grelhados" aria-label="Ampliar foto: Spaghetti com camarões grelhados"><img src="assets/images/galeria/spaghetti-camaroes.jpg" alt="Panela preta com espaguete, camarões grelhados, tomates-cereja e cebolinha, vista de cima" width="1400" height="933" loading="lazy"></button></li>
+        <li class="low"><button type="button" class="g-item" data-caption="Penne cremoso com parmesão" aria-label="Ampliar foto: Penne cremoso com parmesão"><img src="assets/images/galeria/penne-cremoso.jpg" alt="Prato preto de penne ao molho cremoso com parmesão ralado, folha de manjericão e tomate, sobre mármore escuro" width="1000" height="1497" loading="lazy"></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="avaliacoes">
+    <div class="wrap">
+      <h2>O que dizem nossos clientes</h2>
+      <div class="reviews">
+        <figure class="featured">
+          <p class="stars" role="img" aria-label="Nota 5 de 5">★★★★★</p>
+          <blockquote><p>“Fui pelo ragù e voltei pela massa fresca. O serviço é discreto, e a mesa de doze lugares faz o jantar parecer uma casa de família.”</p></blockquote>
+          <figcaption>Mariana T., São Paulo</figcaption>
+        </figure>
+        <div class="others">
+          <figure>
+            <p class="stars" role="img" aria-label="Nota 5 de 5">★★★★★</p>
+            <blockquote><p>“O tagliolini ao tartufo é o melhor prato de massa que comi este ano. O sommelier indicou um vinho perfeito para a mesa.”</p></blockquote>
+            <figcaption>Rafael A., Campinas</figcaption>
+          </figure>
+          <figure>
+            <p class="stars" role="img" aria-label="Nota 5 de 5">★★★★★</p>
+            <blockquote><p>“Comemoramos dez anos de casados. Tudo chegou no tempo certo, e o cannoli de sobremesa fechou a noite muito bem.”</p></blockquote>
+            <figcaption>Helena e Paulo, Santos</figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="note">Depoimentos fictícios, escritos para este projeto.</p>
+
+      <form id="form-aval" class="aval" novalidate>
+        <h3>Conte como foi a sua visita</h3>
+        <fieldset class="rate">
+          <legend>Sua nota</legend>
+          <div class="row"><input type="radio" id="nota5" name="nota" value="5"><label for="nota5" title="5 estrelas"><span class="sr">5 estrelas</span><span aria-hidden="true">★</span></label><input type="radio" id="nota4" name="nota" value="4"><label for="nota4" title="4 estrelas"><span class="sr">4 estrelas</span><span aria-hidden="true">★</span></label><input type="radio" id="nota3" name="nota" value="3"><label for="nota3" title="3 estrelas"><span class="sr">3 estrelas</span><span aria-hidden="true">★</span></label><input type="radio" id="nota2" name="nota" value="2"><label for="nota2" title="2 estrelas"><span class="sr">2 estrelas</span><span aria-hidden="true">★</span></label><input type="radio" id="nota1" name="nota" value="1"><label for="nota1" title="1 estrela"><span class="sr">1 estrela</span><span aria-hidden="true">★</span></label></div>
+          <span class="err" id="e-aval-nota"></span>
+        </fieldset>
+        <div class="f"><label for="aval-nome">Nome</label><input id="aval-nome" name="nome" type="text" autocomplete="name"><span class="err" id="e-aval-nome"></span></div>
+        <div class="f full"><label for="aval-texto">Sua avaliação</label><textarea id="aval-texto" name="texto"></textarea><span class="err" id="e-aval-texto"></span></div>
+        <div class="f full"><button class="btn" type="submit">Enviar avaliação</button></div>
+        <p class="ok" id="ok-aval" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="chef" id="chef">
+    <div class="wrap">
+      <blockquote>“Um bom prato italiano tem poucos ingredientes e nenhuma pressa.”</blockquote>
+      <cite>Matteo Ferraro, chef e sócio</cite>
+    </div>
+  </section>
+
+  <section id="reservas">
+    <div class="wrap reserva">
+      <div>
+        <h2>Reserve sua mesa</h2>
+        <p class="lead">Atendemos de terça a domingo. Para grupos acima de seis pessoas, entre em contato por telefone.</p>
+      </div>
+      <form id="form" novalidate>
+        <div class="f"><label for="nome">Nome completo</label><input id="nome" name="nome" type="text" autocomplete="name" required><span class="err" id="e-nome"></span></div>
+        <div class="f"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required><span class="err" id="e-email"></span></div>
+        <div class="f"><label for="data">Data</label><input id="data" name="data" type="date" required><span class="err" id="e-data"></span></div>
+        <div class="f"><label for="hora">Horário</label>
+          <select id="hora" name="hora" required>
+            <option value="">Escolha</option><option>19h30</option><option>20h00</option><option>21h30</option>
+          </select><span class="err" id="e-hora"></span></div>
+        <div class="f full"><label for="pessoas">Número de pessoas</label>
+          <select id="pessoas" name="pessoas" required>
+            <option value="">Escolha</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option>
+          </select><span class="err" id="e-pessoas"></span></div>
+        <div class="f full"><button class="btn" type="submit">Confirmar reserva</button></div>
+        <p class="ok" id="ok" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<dialog id="lightbox" aria-label="Foto ampliada">
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" class="lb-btn lb-close" aria-label="Fechar">×</button>
+  <button type="button" class="lb-btn lb-prev" aria-label="Foto anterior">‹</button>
+  <button type="button" class="lb-btn lb-next" aria-label="Próxima foto">›</button>
+</dialog>
+
+<footer id="contato">
+  <div class="wrap">
+    <div><img class="foot-logo" src="assets/images/branding/logo-dourado.png" alt="Ciao Cucina" width="720" height="552"><p>Rua dos Girassóis, 480<br>Jardins, São Paulo, SP</p></div>
+    <div><h3>Horários</h3><p>Terça a sábado, 19h30 às 23h<br>Domingo, 12h às 16h</p></div>
+    <div><h3>Contato</h3><p>(11) 3000-0000<br>reservas@ciaocucina.example</p></div>
+    <p class="fine">Restaurante fictício, criado como projeto de portfólio. Endereço, nomes e preços são imaginários. Fotos de Nicholas Grande, Olayinka Babalola e Kimia Kazemi, via Unsplash.</p>
+  </div>
+</footer>
+
+<script src="assets/js/cardapio.js" defer></script>
+<script src="assets/js/reservas.js" defer></script>
+<script src="assets/js/gallery.js" defer></script>
+<script src="assets/js/avaliacoes.js" defer></script>
+</body>
+</html>
